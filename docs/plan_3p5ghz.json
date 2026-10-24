@@ -1,0 +1,58 @@
+{
+  "config": {
+    "command": "plan",
+    "ifc": "examples/sample_office.ifc",
+    "out": "docs/tmp_a",
+    "materials": null,
+    "freq": 3.5,
+    "tx_power": 23.0,
+    "exponent": 3.0,
+    "threshold": -70.0,
+    "target": 0.95,
+    "min_room": 0.9,
+    "grid": 0.5,
+    "candidate_spacing": 2.0,
+    "max_aps": 10,
+    "storey": null,
+    "format": "jpg",
+    "fn": null
+  },
+  "storeys": [
+    {
+      "storey": "Level 1",
+      "access_points": [
+        {
+          "x_m": 17.0,
+          "y_m": 15.15
+        },
+        {
+          "x_m": 23.0,
+          "y_m": 1.15
+        },
+        {
+          "x_m": 1.0,
+          "y_m": 1.15
+        }
+      ],
+      "coverage": 1.0,
+      "coverage_after_each_ap": [
+        0.8972,
+        0.9774,
+        1.0
+      ],
+      "room_coverage": {
+        "South 1": 1.0,
+        "South 2": 1.0,
+        "Core": 1.0,
+        "South 3": 1.0,
+        "South 4": 1.0,
+        "Meeting North 1": 1.0,
+        "North 2": 1.0,
+        "North 3": 1.0,
+        "Meeting North 4": 1.0,
+        "Corridor": 1.0
+      },
+      "goals_met": true
+    }
+  ]
+}
